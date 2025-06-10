@@ -1,0 +1,31 @@
+.productList {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.productItem {
+  background-color: #f9f9f9;
+  padding: 15px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: space-between;
+  transition: transform 0.2s;
+}
+
+.productItem:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.productName {
+  font-weight: bold;
+  color: #333;
+}
+
+.productPrice {
+  color: #666;
+  font-weight: 500;
+}
