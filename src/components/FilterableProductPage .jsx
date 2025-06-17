@@ -1,3 +1,10 @@
+import { useState } from 'react'
+
+import SearchBar from './SearchBar'
+import ProductList from './ProductList'
+
+import styles from './FilterableProductPage.module.css'
+
 const PRODUCTS = [
   { name: 'Laptop', price: '4500 PLN' },
   { name: 'Myszka', price: '150 PLN' },
@@ -7,5 +14,15 @@ const PRODUCTS = [
 ]
 
 export default function FilterableProductPage() {
-  return <div></div>
+  const [query, setQuery] = useState('')
+
+  console.log({ query })
+
+  return (
+    <div className={styles.container}>
+      <h1 className={styles.heading}>Lista Produktów</h1>
+      <SearchBar query={query} setQuery={setQuery} />
+      <ProductList products={PRODUCTS} query={query} />
+    </div>
+  )
 }
