@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import SearchBar from './SearchBar'
 import ProductList from './ProductList'
+import Form from './Form'
 
 import styles from './FilterableProductPage.module.css'
 
@@ -16,13 +17,12 @@ const PRODUCTS = [
 export default function FilterableProductPage() {
   const [query, setQuery] = useState('')
 
-  console.log({ query })
-
   return (
     <div className={styles.container}>
       <h1 className={styles.heading}>Lista Produktów</h1>
       <SearchBar query={query} setQuery={setQuery} />
       <ProductList products={PRODUCTS} query={query} />
+      <Form />
     </div>
   )
 }
