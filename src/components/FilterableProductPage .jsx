@@ -2,7 +2,7 @@ import { useState } from 'react'
 
 import SearchBar from './SearchBar'
 import ProductList from './ProductList'
-import Form from './Form'
+import { Form } from './form'
 
 import styles from './FilterableProductPage.module.css'
 

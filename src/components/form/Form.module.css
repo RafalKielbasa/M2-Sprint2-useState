@@ -41,15 +41,7 @@
   margin: 5px 0;
 }
 
-.submitButton {
-  background: #2196f3;
-  color: white;
-  border: none;
-  border-radius: 4px;
-  padding: 10px 20px;
-  cursor: pointer;
-  font-size: 16px;
-}
+
 
 .addButton {
   background: #4caf50;
