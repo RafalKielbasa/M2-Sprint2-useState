@@ -1,0 +1,27 @@
+.button {
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.m {
+  padding: 10px 20px;
+  font-size: 16px;
+}
+
+.m {
+  padding: 14px 24px;
+  font-size: 20px;
+  font-weight: 800;
+}
+
+.primary {
+  background: #2196f3;
+  color: white;
+  border: none;
+}
+
+.secondary {
+  color: black;
+  border: 1px solid black;
+  border-radius: 8px;
+}
