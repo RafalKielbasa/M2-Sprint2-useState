@@ -6,7 +6,7 @@ export default function ListElement({ product }) {
   return (
     <li className={styles.productItem}>
       <span className={styles.productName}>{name}</span>
-      <span className={styles.productPrice}>{price}</span>
+      <span className={styles.productPrice}>{price} PLN</span>
     </li>
   )
 }

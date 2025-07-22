@@ -1,3 +1,29 @@
 {
-  "products": []
+  "products": [
+    {
+      "name": "Laptop",
+      "price": "5000",
+      "id": 1
+    },
+    {
+      "name": "Mysz",
+      "price": "200",
+      "id": 2
+    },
+    {
+      "name": "Klawiatura",
+      "price": "300",
+      "id": 3
+    },
+    {
+      "name": "Fotel",
+      "price": "900",
+      "id": 4
+    },
+    {
+      "name": "Gra",
+      "price": "100",
+      "id": 5
+    }
+  ]
 }
